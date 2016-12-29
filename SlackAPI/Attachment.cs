@@ -12,6 +12,7 @@
         public string title;
         public string title_link;
         public string text;
+        public string callback_id;
         public Field[] fields;
         
         public string image_url;
@@ -20,7 +21,8 @@
         public AttachmentAction[] actions;
     }
 
-    public class Field{
+    public class Field
+    {
         public string title;
         public string value;
         public bool @short;
